@@ -117,5 +117,12 @@ All *v2* routes will check for the *access-token* header, no prefixes.
         next()
       })
   
-f
+## III- Past version documentation :
+
+       https://github.com/BachirZahaf27/ALOS_act2/blob/main/README.md
+## IV- Documentation :
+
+       https://bachir-zahaf.gitbook.io/live-climate-change-api/
+
+
 
