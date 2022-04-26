@@ -33,6 +33,22 @@
         
        npm i jsonwebtoken
 
+* Then we need to make a Access Secret Token that jwt use to create the token:
+A) create a .env file and use jwt crypto function to generate a random value:
+
+       $ node
+       > require('crypto').randomBytes(64).toString('hex')
+
+B) we assign the return value to ACCESS_TOKEN_SECRET in the .env file.
+
+* Third, we sign the user with the ACCESS_TOKEN_SECRET using JWT process:
+
+      require('dotenv').config()
+      const jwt = require('jsonwebtoken')
+      ...
+      const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
+      res.status(200).json({ accessToken: accessToken })
+
 * 
 
 
