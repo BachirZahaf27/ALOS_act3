@@ -25,12 +25,15 @@
 ### 2- Implement JWTokens : 
 
 * To implement JWTokens for Authentication we need to install "dotenv" & "jsonwebtoken" package:
+* Dotenv package:
 
        npm i dotenv
        
+* Jsonwebtoken package :      
+        
        npm i jsonwebtoken
 
-* f
+* 
 
 
 
