@@ -6,7 +6,33 @@
 
 ### II- JWT Authentication :
 
-* To add the JWT Authentication to my API we need to understand how it works first, this diagramme shows the Implamantation of JWT Authentication:
+* To add the JWT Authentication to my API we need to understand how it works first, this diagramme shows the Implementation of JWT Authentication:
 
  ![Untitled (1)](https://user-images.githubusercontent.com/61596276/165381125-e1582164-3701-46a6-a132-bd06c2780cc1.png)
+ 
+### 1- Crypting the user Password :
+ 
+* To crypt the the password we need to install "bcrypt" package:
+
+       npm i bcrypt
+                   
+* Then we can hash the password by adding the Salt :
+
+      // hash the password
+      const salt = await bcrypt.genSalt()
+      const hashedPassword = await bcrypt.hash(req.body.password, salt)
+
+### 2- Implement JWTokens : 
+
+* To implement JWTokens for Authentication we need to install "dotenv" & "jsonwebtoken" package:
+
+       npm i dotenv
+       
+       npm i jsonwebtoken
+
+* f
+
+
+
+
 
