@@ -2,9 +2,53 @@
 
 * In this version of the API i add the Versioning & the JWT Authentication to my API.
 
-### I- Versioning API :
+## Folder Structure
 
-### II- JWT Authentication :
+```
+├─── database
+|    ├─── users.json
+│    └─── newspapers.json
+└─── src
+     ├─── api
+     │    ├─── v1
+     |    |    ├─── News.js
+     │    │    └─── Newspapers.js
+     │    └─── v2
+     |         ├─── News.js
+     │         ├─── Newspapers.js
+     │         └─── Users.js
+     ├─── test
+     |    └─── tests.js
+     ├─── utils
+     |    └─── validation.js
+     ├─── .env
+     ├─── server.js
+     ├─── package.json
+     ├─── package-lock.json
+     ├─── requst.rest
+     └─── node_modles
+
+```
+## I- Versioning API :
+
+### v1
+
+The first version only queries newspapers and news.
+
+### v2
+
+In the second version, you can query users, in addition to everything in v1.
+On top of that, v2 offers authentification and authorization to all routes.
+
+#### Authentification
+You can use */api/v2/user/signup* to register a user account
+
+And */api/user/v2/login* to login to your existing account
+
+All *v2* routes will check for the *access-token* header, no prefixes.
+
+
+## II- JWT Authentication :
 
 * To add the JWT Authentication to my API we need to understand how it works first, this diagramme shows the Implementation of JWT Authentication :
 
