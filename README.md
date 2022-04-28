@@ -116,7 +116,19 @@ All *v2* routes will check for the *access-token* header, no prefixes.
         req.user = user
         next()
       })
-  
+
+### 4- Test JWTokens Implantation:
+
+* Create a user:
+* ![image](https://user-images.githubusercontent.com/61596276/165825399-afa2714f-296b-425f-835a-195354f10be7.png)
+
+* Login a user:
+* 
+* GET data:
+* 
+* POST data:
+* 
+
 ## III- Past version documentation :
 
        https://github.com/BachirZahaf27/ALOS_act2/blob/main/README.md
