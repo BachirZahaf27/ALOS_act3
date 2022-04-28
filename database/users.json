@@ -1,7 +1,6 @@
 [
-    { 
-        "id":1,
-        "username":"Bachir",
-        "password":"ZMB/2022"
-    }
+    { "id":1,
+       "username":"Bachir",
+       "password":"$2b$10$BDZJ1keD5dVBlyy5emasc.2XMZPACJRgY8dOac8d55s.QMjcke47O"
+    } 
 ]
