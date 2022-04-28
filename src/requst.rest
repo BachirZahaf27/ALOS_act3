@@ -68,7 +68,7 @@ Content-Type: application/json
 
 {
     "username": "Bachir",
-    "password": "ZMB/2022"
+    "password": "ZMB/2021"
 }
 
 ### -Access to users
