@@ -120,18 +120,16 @@ All *v2* routes will check for the *access-token* header, no prefixes.
 ### 4- Test JWTokens Implantation:
 
 * Create a user:
-* ![image](https://user-images.githubusercontent.com/61596276/165825399-afa2714f-296b-425f-835a-195354f10be7.png)
+      ![image](https://user-images.githubusercontent.com/61596276/165825399-afa2714f-296b-425f-835a-195354f10be7.png)
 
 * Login a user:
-* ![image](https://user-images.githubusercontent.com/61596276/165844032-7131cf24-0c5c-48ae-8b2d-225df5c8a6bd.png)
+      ![image](https://user-images.githubusercontent.com/61596276/165844032-7131cf24-0c5c-48ae-8b2d-225df5c8a6bd.png)
 
 * Add Authoration token:
-* ![image](https://user-images.githubusercontent.com/61596276/165843938-deb81aea-c2a3-482b-8602-f165484b49de.png)
+      ![image](https://user-images.githubusercontent.com/61596276/165843938-deb81aea-c2a3-482b-8602-f165484b49de.png)
 
 *  GET data:
-* 
-* POST data:
-* 
+      ![image](https://user-images.githubusercontent.com/61596276/165844282-01687c05-d8bd-43f7-b3e7-d46838314c18.png)   
 
 ## III- Past version documentation :
 
