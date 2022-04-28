@@ -26,6 +26,7 @@ Content-Type: application/json
 {
     "name": "test-newspapers2",
     "website": "https://www.cityam.com/",
+    
     "address": "https://www.cityam.com/london-must-become-a-world-leader-on-climate-change-action/",
     "base": "https://www.cityam.com/"
 }
@@ -37,6 +38,7 @@ Content-Type: application/json
 {
     "name": "Cityam",
     "website": "https://www.cityam.com/",
+    
     "address": "https://www.cityam.com/london-must-become-a-world-leader-on-climate-change-action/",
     "base": "https://www.cityam.com/"
 }
