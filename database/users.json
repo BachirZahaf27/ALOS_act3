@@ -1,1 +1,7 @@
-[{"username":"user1","password":"password1"},{"id":2,"username":"user2","password":"$2b$10$Q1FuGAuoEC9irnAOQ7jthu7ziil5617tRiKJ5bWBWzpoDmuAANItO"}]
+[
+    { 
+        "id":1,
+        "username":"Bachir",
+        "password":"ZMB/2022"
+    }
+]
